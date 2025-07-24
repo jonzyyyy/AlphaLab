@@ -39,63 +39,7 @@ To run AlphaLab, you'll need:
 
 -----
 
-## Installation
-
-Follow these steps to set up the project:
-
-1.  **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/equity-backtest-platform.git
-    cd equity-backtest-platform
-    ```
-
-2.  **Create a virtual environment (optional but recommended)**:
-
-      * **Linux/Mac**:
-        ```bash
-        python3 -m venv venv
-        source venv/bin/activate
-        ```
-      * **Windows**:
-        ```bash
-        venv\Scripts\activate
-        ```
-
-3.  **Install dependencies**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
------
-
-## Usage
-
-Once installed, you can use the platform via the Jupyter Notebook:
-
-1.  **Open the Jupyter Notebook**:
-
-    ```bash
-    jupyter notebook Equity_Backtest_Notebook.ipynb
-    ```
-
-2.  **Modify parameters** at the top of the notebook, including:
-
-      * `tickers` slice (e.g., `top 25` for demo or `full S&P 500`).
-      * Train/test split ratio.
-      * Rebalance frequency (e.g., `freq='QS'`, `MS`).
-
-3.  **Run cells sequentially** to execute the workflow:
-
-      * Setup & library imports
-      * Download and preprocess data
-      * Compute factors and select stocks
-      * Backtest portfolio with rebalancing
-      * Compute and plot performance metrics
-      * Compare against benchmark
-
------
+## Installation (currently still in in-progress, although it can be ran in google colab)
 
 ## Project Structure
 
