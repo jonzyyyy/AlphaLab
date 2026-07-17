@@ -1,0 +1,488 @@
+Ticker,MarketCap,CompanyName
+NVDA,4066436186112,NVIDIA Corporation
+MSFT,3679419105280,Microsoft Corporation
+AAPL,3557095374848,Apple Inc.
+GOOGL,2843006468096,Alphabet Inc.
+AMZN,2477776175104,"Amazon.com, Inc."
+META,1890259828736,"Meta Platforms, Inc."
+AVGO,1575145177088,Broadcom Inc.
+BMYMP,1288246919168,Bristol-Myers Squibb Company PFD CONV 2
+TSLA,1131616796672,"Tesla, Inc."
+BRK-B,1078403661824,Berkshire Hathaway Inc.
+JPM,809471442944,JPMorgan Chase & Co.
+WMT,801351204864,Walmart Inc.
+V,666169442304,Visa Inc.
+ORCL,653895598080,Oracle Corporation
+LLY,651912544256,Eli Lilly and Company
+NFLX,528531456000,"Netflix, Inc."
+MA,528141877248,Mastercard Incorporated
+XOM,465674797056,Exxon Mobil Corporation
+JNJ,429720076288,Johnson & Johnson
+COST,427281219584,Costco Wholesale Corporation
+HD,417017397248,"The Home Depot, Inc."
+ABBV,375499980800,AbbVie Inc.
+PG,374826074112,The Procter & Gamble Company
+BAC,368643899392,Bank of America Corporation
+CVX,309597241344,Chevron Corporation
+GE,296106688512,GE Aerospace
+KO,292477403136,The Coca-Cola Company
+UNH,285640523776,UnitedHealth Group Incorporated
+TMUS,284461170688,"T-Mobile US, Inc."
+CSCO,264469102592,"Cisco Systems, Inc."
+WFC,252943630336,Wells Fargo & Company
+PM,251467104256,Philip Morris International Inc.
+AMD,245276049408,"Advanced Micro Devices, Inc."
+CRM,238723514368,"Salesforce, Inc."
+MS,236401983488,Morgan Stanley
+IBM,231510409216,International Business Machines Corporation
+ABT,231376764928,Abbott Laboratories
+AXP,227010625536,American Express Company
+MCD,224342818816,McDonald's Corporation
+GS,223471665152,"The Goldman Sachs Group, Inc."
+LIN,220162621440,Linde plc
+DIS,211993935872,The Walt Disney Company
+MRK,211586940928,"Merck & Co., Inc."
+T,211580026880,AT&T Inc.
+RTX,210846826496,RTX Corporation
+PEP,200419622912,"PepsiCo, Inc."
+CAT,198204096512,Caterpillar Inc.
+NOW,189630873600,"ServiceNow, Inc."
+INTU,187585576960,Intuit Inc.
+VZ,187120287744,Verizon Communications Inc.
+TMO,186011680768,Thermo Fisher Scientific Inc.
+ANET,179543883776,Arista Networks Inc
+BKNG,178442420224,Booking Holdings Inc.
+C,175621865472,Citigroup Inc.
+BA,173621444608,The Boeing Company
+QCOM,172467372032,QUALCOMM Incorporated
+TXN,170854121472,Texas Instruments Incorporated
+BLK,170206674944,"BlackRock, Inc."
+ISRG,167358562304,"Intuitive Surgical, Inc."
+SCHW,167091011584,The Charles Schwab Corporation
+SPGI,164269719552,S&P Global Inc.
+BSX,158873239552,Boston Scientific Corporation
+ACN,158796365824,Accenture plc
+TJX,154988019712,"The TJX Companies, Inc."
+AMGN,152700993536,Amgen Inc.
+LOW,151405936640,"Lowe's Companies, Inc."
+SYK,149982855168,Stryker Corporation
+ADBE,148033077248,Adobe Inc.
+MU,147020103680,"Micron Technology, Inc."
+NEE,146003656704,"NextEra Energy, Inc."
+DHR,143360770048,Danaher Corporation
+PGR,142999502848,The Progressive Corporation
+GILD,142755184640,"Gilead Sciences, Inc."
+COF,141672202240,Capital One Financial Corporation
+PFE,141456474112,Pfizer Inc.
+HON,136026685440,Honeywell International Inc.
+ETN,135877378048,Eaton Corporation plc
+APH,134850617344,Amphenol Corporation
+UNP,130652643328,Union Pacific Corporation
+LRCX,130295570432,Lam Research Corporation
+AMAT,129653481472,"Applied Materials, Inc."
+DE,127935897600,Deere & Company
+CMCSA,125202841600,Comcast Corporation
+ADI,121547325440,"Analog Devices, Inc."
+ADP,119880581120,"Automatic Data Processing, Inc."
+KLAC,119436582912,KLA Corporation
+MDT,119161905152,Medtronic plc
+COP,116088971264,ConocoPhillips
+WELL,112242384896,Welltower Inc.
+MO,111796690944,"Altria Group, Inc."
+SNPS,110682218496,"Synopsys, Inc."
+CB,110588633088,Chubb Limited
+NKE,109157679104,"NIKE, Inc."
+LMT,108304408576,Lockheed Martin Corporation
+INTC,107192238080,Intel Corporation
+PLD,105474359296,"Prologis, Inc."
+VRTX,101561606144,Vertex Pharmaceuticals Incorporated
+SO,100962590720,The Southern Company
+MMC,100163477504,"Marsh & McLennan Companies, Inc."
+ICE,99756154880,"Intercontinental Exchange, Inc."
+HCA,98457649152,"HCA Healthcare, Inc."
+SBUX,97108287488,Starbucks Corporation
+PH,96095895552,Parker-Hannifin Corporation
+BMY,95950643200,Bristol-Myers Squibb Company
+RCL,95686393856,Royal Caribbean Cruises Ltd.
+CDNS,95646711808,"Cadence Design Systems, Inc."
+CME,94397939712,CME Group Inc.
+CEG,94215405568,Constellation Energy Corporation
+DUK,93789233152,Duke Energy Corporation
+CVS,93577388032,CVS Health Corporation
+AMT,92863545344,American Tower Corporation
+SHW,92859080704,The Sherwin-Williams Company
+TT,92083380224,Trane Technologies plc
+MCO,89505521664,Moody's Corporation
+ORLY,88956428288,"O'Reilly Automotive, Inc."
+WM,88646770688,"Waste Management, Inc."
+GD,86847070208,General Dynamics Corporation
+MCK,85501566976,McKesson Corporation
+NEM,83668934656,Newmont Corporation
+NOC,83160686592,Northrop Grumman Corporation
+MMM,82717442048,3M Company
+CTAS,82408996864,Cintas Corporation
+CI,81495785472,The Cigna Group
+PNC,80494149632,"The PNC Financial Services Group, Inc."
+AON,79898435584,Aon plc
+MDLZ,79888474112,"Mondelez International, Inc."
+MSI,79799984128,"Motorola Solutions, Inc."
+ITW,77608960000,Illinois Tool Works Inc.
+ECL,77588455424,Ecolab Inc.
+AJG,76698681344,Arthur J. Gallagher & Co.
+USB,75942068224,U.S. Bancorp
+EQIX,75715420160,"Equinix, Inc."
+EMR,74599145472,Emerson Electric Co.
+FI,73412239360,"Fiserv, Inc."
+BK,73126445056,The Bank of New York Mellon Corporation
+UPS,72077352960,"United Parcel Service, Inc."
+MAR,71854931968,"Marriott International, Inc."
+HWM,71837057024,Howmet Aerospace Inc.
+RSG,71725383680,"Republic Services, Inc."
+TDG,71623491584,TransDigm Group Incorporated
+ELV,70624829440,"Elevance Health, Inc."
+AZO,70585245696,"AutoZone, Inc."
+WMB,69851496448,"The Williams Companies, Inc."
+ADSK,69516812288,"Autodesk, Inc."
+JCI,69515321344,Johnson Controls International plc
+CL,68803854336,Colgate-Palmolive Company
+SPG,68745977856,"Simon Property Group, Inc."
+ZTS,67948822528,Zoetis Inc.
+FCX,66533580800,Freeport-McMoRan Inc.
+PYPL,65214103552,"PayPal Holdings, Inc."
+APD,64509497344,"Air Products and Chemicals, Inc."
+EOG,64388956160,"EOG Resources, Inc."
+HLT,64043323392,Hilton Worldwide Holdings Inc.
+URI,62747467776,"United Rentals, Inc."
+TRV,61961379840,"The Travelers Companies, Inc."
+TEL,61678911488,TE Connectivity plc
+MNST,60987695104,Monster Beverage Corporation
+GLW,60982710272,Corning Incorporated
+REGN,60770828288,"Regeneron Pharmaceuticals, Inc."
+CSX,60645027840,CSX Corporation
+FTNT,60404748288,"Fortinet, Inc."
+TFC,59984748544,Truist Financial Corporation
+KMI,59085107200,"Kinder Morgan, Inc."
+AEP,57816690688,"American Electric Power Company, Inc."
+AFL,57189478400,Aflac Incorporated
+NXPI,57164558336,NXP Semiconductors N.V.
+DLR,56696844288,"Digital Realty Trust, Inc."
+ROP,55791403008,"Roper Technologies, Inc."
+CARR,55750516736,Carrier Global Corporation
+PWR,55504736256,"Quanta Services, Inc."
+GM,55477587968,General Motors Company
+BDX,55144169472,"Becton, Dickinson and Company"
+CMI,55093731328,Cummins Inc.
+FAST,55075250176,Fastenal Company
+CMG,55056535552,"Chipotle Mexican Grill, Inc."
+MPC,54808723456,Marathon Petroleum Corporation
+O,54209204224,Realty Income Corporation
+DHI,54198943744,"D.R. Horton, Inc."
+FDX,53730078720,FedEx Corporation
+NDAQ,53638361088,"Nasdaq, Inc."
+SLB,53431619584,Schlumberger Limited
+PSX,53162512384,Phillips 66
+ALL,53104160768,The Allstate Corporation
+SRE,52922003456,Sempra
+MET,52876218368,"MetLife, Inc."
+PSA,52249899008,Public Storage
+PCAR,52011454464,PACCAR Inc
+IDXX,51442225152,"IDEXX Laboratories, Inc."
+LHX,50962812928,"L3Harris Technologies, Inc."
+D,49661321216,"Dominion Energy, Inc."
+ROST,49371369472,"Ross Stores, Inc."
+CTVA,49098936320,"Corteva, Inc."
+CBRE,48911925248,"CBRE Group, Inc."
+PAYX,48705441792,"Paychex, Inc."
+VLO,48700915712,Valero Energy Corporation
+EW,47519879168,Edwards Lifesciences Corporation
+GWW,47519854592,"W.W. Grainger, Inc."
+CPRT,46964080640,"Copart, Inc."
+F,46723555328,Ford Motor Company
+AMP,46125207552,"Ameriprise Financial, Inc."
+HES,46072102912,Hess Corporation
+OKE,45739180032,"ONEOK, Inc."
+GRMN,45696151552,Garmin Ltd.
+OXY,45195640832,Occidental Petroleum Corporation
+BKR,44936364032,Baker Hughes Company
+KR,44793315328,The Kroger Co.
+TTWO,44213768192,"Take-Two Interactive Software, Inc."
+AIG,43882655744,"American International Group, Inc."
+EXC,43863867392,Exelon Corporation
+AME,43292327936,"AMETEK, Inc."
+KMB,43094904832,Kimberly-Clark Corporation
+XEL,42984841216,Xcel Energy Inc.
+MSCI,42949292032,MSCI Inc.
+CCL,42805129216,Carnival Corporation & plc
+EBAY,42345623552,eBay Inc.
+TGT,42336354304,Target Corporation
+EA,42189905920,Electronic Arts Inc.
+CCI,41870442496,Crown Castle Inc.
+MPWR,41467764736,"Monolithic Power Systems, Inc."
+RMD,40564277248,ResMed Inc.
+PEG,40485371904,Public Service Enterprise Group Incorporated
+FANG,40154607616,"Diamondback Energy, Inc."
+YUM,40126156800,"Yum! Brands, Inc."
+STX,40017305600,Seagate Technology Holdings plc
+DAL,39947358208,"Delta Air Lines, Inc."
+SYY,39428579328,Sysco Corporation
+ETR,39172390912,Entergy Corporation
+VMC,38951477248,Vulcan Materials Company
+KDP,38919303168,Keurig Dr Pepper Inc.
+ROK,38200578048,"Rockwell Automation, Inc."
+LYV,37905268736,"Live Nation Entertainment, Inc."
+CSGP,37899726848,"CoStar Group, Inc."
+VRSK,37766365184,"Verisk Analytics, Inc."
+HSY,37601247232,The Hershey Company
+MLM,37548929024,"Martin Marietta Materials, Inc."
+PRU,37203894272,"Prudential Financial, Inc."
+HUM,37034156032,Humana Inc.
+HIG,37021917184,"The Hartford Insurance Group, Inc."
+LVS,36862582784,Las Vegas Sands Corp.
+LEN,36567584768,Lennar Corporation
+A,36500623360,"Agilent Technologies, Inc."
+FIS,35908333568,"Fidelity National Information Services, Inc."
+VICI,35830030336,VICI Properties Inc.
+CHTR,35718549504,"Charter Communications, Inc."
+CAH,35714031616,"Cardinal Health, Inc."
+MCHP,35575705600,Microchip Technology Incorporated
+ED,35361931264,"Consolidated Edison, Inc."
+CTSH,35076599808,Cognizant Technology Solutions Corporation
+TRGP,34936422400,Targa Resources Corp.
+WEC,34693935104,"WEC Energy Group, Inc."
+UAL,34506592256,"United Airlines Holdings, Inc."
+XYL,34213709824,Xylem Inc.
+OTIS,34145325056,Otis Worldwide Corporation
+ACGL,34071255040,Arch Capital Group Ltd.
+NUE,33801324544,Nucor Corporation
+PCG,33165404160,PG&E Corporation
+WAB,33024698368,Westinghouse Air Brake Technologies Corporation
+RJF,32998051840,"Raymond James Financial, Inc."
+ANSS,32906993664,"ANSYS, Inc."
+EXR,32637392896,Extra Space Storage Inc.
+DD,32584556544,"DuPont de Nemours, Inc."
+KHC,32300445696,The Kraft Heinz Company
+EQT,32201648128,EQT Corporation
+IR,32173817856,Ingersoll Rand Inc.
+WTW,32119629824,Willis Towers Watson Public Limited Company
+EL,32102096896,The Estée Lauder Companies Inc.
+TSCO,32072695808,Tractor Supply Company
+STT,32043350016,State Street Corporation
+WDC,31930699776,Western Digital Corporation
+IQV,31905599488,IQVIA Holdings Inc.
+ODFL,31674421248,"Old Dominion Freight Line, Inc."
+DXCM,31572400128,"DexCom, Inc."
+BRO,31265818624,"Brown & Brown, Inc."
+MTB,31186604032,M&T Bank Corporation
+HPE,31033464832,Hewlett Packard Enterprise Company
+VTR,30863128576,"Ventas, Inc."
+EFX,30758594560,Equifax Inc.
+ADM,30240403456,Archer-Daniels-Midland Company
+FITB,30195283968,Fifth Third Bancorp
+WBD,29981575168,"Warner Bros. Discovery, Inc."
+BR,29401722880,"Broadridge Financial Solutions, Inc."
+KEYS,28854622208,"Keysight Technologies, Inc."
+NRG,28562022400,"NRG Energy, Inc."
+DTE,28356521984,DTE Energy Company
+SYF,28131303424,Synchrony Financial
+AWK,28016218112,"American Water Works Company, Inc."
+AVB,27823065088,"AvalonBay Communities, Inc."
+K,27768324096,Kellanova
+PHM,27734181888,"PulteGroup, Inc."
+HPQ,27424157696,HP Inc.
+ROL,27391852544,"Rollins, Inc."
+WRB,27293923328,W. R. Berkley Corporation
+IRM,27225178112,Iron Mountain Incorporated
+AEE,27211356160,Ameren Corporation
+GIS,27044419584,"General Mills, Inc."
+MTD,26896318464,Mettler-Toledo International Inc.
+ATO,26724034560,Atmos Energy Corporation
+PPL,26592958464,PPL Corporation
+EXPE,26592753664,"Expedia Group, Inc."
+EQR,26293874688,Equity Residential
+STZ,26171324416,"Constellation Brands, Inc."
+VRSN,26162814976,"VeriSign, Inc."
+FOXA,26097709056,Fox Corporation
+TDY,25743194112,Teledyne Technologies Incorporated
+HBAN,25720582144,Huntington Bancshares Incorporated
+IP,25707444224,International Paper Company
+PTC,25623721984,PTC Inc.
+FE,25105526784,FirstEnergy Corp.
+PPG,24822487040,"PPG Industries, Inc."
+CNP,24665239552,"CenterPoint Energy, Inc."
+DRI,24501272576,"Darden Restaurants, Inc."
+DOV,24375568384,Dover Corporation
+NTRS,24265422848,Northern Trust Corporation
+TYL,24224878592,"Tyler Technologies, Inc."
+STE,24159744000,STERIS plc
+RF,24119085056,Regions Financial Corporation
+DG,24053182464,Dollar General Corporation
+CINF,23981824000,Cincinnati Financial Corporation
+TROW,23764375552,"T. Rowe Price Group, Inc."
+NTAP,23704637440,"NetApp, Inc."
+ES,23576936448,Eversource Energy
+NVR,23491876864,"NVR, Inc."
+CHD,23337742336,"Church & Dwight Co., Inc."
+LH,23157477376,Labcorp Holdings Inc.
+ULTA,23085498368,"Ulta Beauty, Inc."
+LDOS,22965161984,"Leidos Holdings, Inc."
+CFG,22305056768,"Citizens Financial Group, Inc."
+CDW,22244982784,CDW Corporation
+DVN,22065647616,Devon Energy Corporation
+TPR,21682358272,"Tapestry, Inc."
+CMS,21417420800,CMS Energy Corporation
+GPN,21296041984,Global Payments Inc.
+SBAC,21233123328,SBA Communications Corporation
+EIX,20954210304,Edison International
+ZBH,20944691200,"Zimmer Biomet Holdings, Inc."
+KEY,20768088064,KeyCorp
+DLTR,20625244160,"Dollar Tree, Inc."
+BIIB,20624332800,Biogen Inc.
+DGX,20518402048,Quest Diagnostics Incorporated
+ON,20082669568,ON Semiconductor Corporation
+L,20045647872,Loews Corporation
+TSN,19994218496,"Tyson Foods, Inc."
+PKG,19817830400,Packaging Corporation of America
+GPC,19403333632,Genuine Parts Company
+TRMB,19213615104,Trimble Inc.
+AMCR,19130337280,Amcor plc
+TER,19120695296,"Teradyne, Inc."
+MKC,19033876480,"McCormick & Company, Incorporated"
+NI,18989582336,NiSource Inc.
+RL,18900391936,Ralph Lauren Corporation
+WY,18867511296,Weyerhaeuser Company
+HAL,18842503168,Halliburton Company
+IT,18624190464,"Gartner, Inc."
+INVH,18543491072,Invitation Homes Inc.
+ESS,18518644736,"Essex Property Trust, Inc."
+CTRA,18300096512,Coterra Energy Inc.
+WAT,18233421824,Waters Corporation
+GEN,18168135680,Gen Digital Inc.
+FFIV,18146996224,"F5, Inc."
+PNR,18137327616,Pentair plc
+WST,18029316096,"West Pharmaceutical Services, Inc."
+PFG,17816985600,"Principal Financial Group, Inc."
+LYB,17716371456,LyondellBasell Industries N.V.
+APTV,17516615680,Aptiv PLC
+MAA,17451053056,"Mid-America Apartment Communities, Inc."
+J,17382924288,Jacobs Solutions Inc.
+DOW,17366679552,Dow Inc.
+NWSA,17332330496,News Corporation
+SNA,17146109952,Snap-on Incorporated
+IFF,16922631168,International Flavors & Fragrances Inc.
+INCY,16918712320,Incyte Corporation
+LNT,16605336576,Alliant Energy Corporation
+LUV,16485651456,Southwest Airlines Co.
+EVRG,16479097856,"Evergy, Inc."
+EXPD,16409785344,"Expeditors International of Washington, Inc."
+FTV,16196144128,Fortive Corporation
+BBY,16098300928,"Best Buy Co., Inc."
+ZBRA,15955223552,Zebra Technologies Corporation
+MAS,15926319104,Masco Corporation
+DPZ,15746518016,"Domino's Pizza, Inc."
+ILMN,15660618752,"Illumina, Inc."
+CLX,15536912384,The Clorox Company
+KIM,15413071872,Kimco Realty Corporation
+OMC,15387418624,Omnicom Group Inc.
+CHRW,14894817280,"C.H. Robinson Worldwide, Inc."
+HOLX,14848693248,"Hologic, Inc."
+ALLE,14753579008,Allegion plc
+UDR,14750494720,"UDR, Inc."
+TXT,14514796544,Textron Inc.
+ARE,14460067840,"Alexandria Real Estate Equities, Inc."
+CNC,14233033728,Centene Corporation
+HRL,14112949248,Hormel Foods Corporation
+FDS,14026700800,FactSet Research Systems Inc.
+OCLCF,13941486592,Oracle Corporation Japan
+JBHT,13912962048,"J.B. Hunt Transport Services, Inc."
+BALL,13863269376,Ball Corporation
+BF-B,13709555712,Brown-Forman Corporation
+CF,13683478528,"CF Industries Holdings, Inc."
+BXP,13583775744,"BXP, Inc."
+COO,13536903168,"The Cooper Companies, Inc."
+REG,13457651712,Regency Centers Corporation
+AVY,13105587200,Avery Dennison Corporation
+BEN,12964298752,"Franklin Resources, Inc."
+NDSN,12643603456,Nordson Corporation
+PAYC,12608229376,"Paycom Software, Inc."
+WYNN,12570819584,"Wynn Resorts, Limited"
+BAX,12542624768,Baxter International Inc.
+POOL,12430252032,Pool Corporation
+IEX,12417133568,IDEX Corporation
+VTRS,12241634304,Viatris Inc.
+SWK,12138788864,"Stanley Black & Decker, Inc."
+HST,12138775552,"Host Hotels & Resorts, Inc."
+UHS,12098989056,"Universal Health Services, Inc."
+SJM,12003129344,The J. M. Smucker Company
+CPT,11899150336,Camden Property Trust
+JKHY,11822656512,"Jack Henry & Associates, Inc."
+NCLH,11596702720,Norwegian Cruise Line Holdings Ltd.
+AKAM,11264403456,"Akamai Technologies, Inc."
+HAS,11180776448,"Hasbro, Inc."
+SWKS,11161785344,"Skyworks Solutions, Inc."
+AIZ,10655469568,"Assurant, Inc."
+HII,10639303680,"Huntington Ingalls Industries, Inc."
+GNRC,10637959168,Generac Holdings Inc.
+PNW,10629003264,Pinnacle West Capital Corporation
+AOS,10324777984,A. O. Smith Corporation
+MOS,10298915840,The Mosaic Company
+CPB,10145362944,The Campbell's Company
+ALGN,10084307968,"Align Technology, Inc."
+MGM,9983966208,MGM Resorts International
+TAP,9973138432,Molson Coors Beverage Company
+IPG,9944121344,"The Interpublic Group of Companies, Inc."
+DVA,9857704960,DaVita Inc.
+IVZ,9806748672,Invesco Ltd.
+MRNA,9781471232,"Moderna, Inc."
+ALB,9595872256,Albemarle Corporation
+BWA,9527783424,BorgWarner Inc.
+MOH,9466030080,"Molina Healthcare, Inc."
+EPAM,9438397440,"EPAM Systems, Inc."
+CAG,9229220864,"Conagra Brands, Inc."
+AES,9206806528,The AES Corporation
+MTCH,9184541696,"Match Group, Inc."
+KMX,9109370880,"CarMax, Inc."
+FRT,8911272960,Federal Realty Investment Trust
+CMA,8850231296,Comerica Incorporated
+MHK,8654352384,"Mohawk Industries, Inc."
+AAL,8630562816,American Airlines Group Inc.
+VNO,8619245568,Vornado Realty Trust
+QRVO,8606658560,"Qorvo, Inc."
+TECH,8463475712,Bio-Techne Corporation
+HSIC,8419637248,"Henry Schein, Inc."
+ZION,8343708672,"Zions Bancorporation, National Association"
+LKQ,8331147264,LKQ Corporation
+APA,8139631104,APA Corporation
+LW,8082590720,"Lamb Weston Holdings, Inc."
+CRL,8070637056,"Charles River Laboratories International, Inc."
+LNC,7983214080,Lincoln National Corporation
+EMN,7930297856,Eastman Chemical Company
+BIO,7804019712,"Bio-Rad Laboratories, Inc."
+PARAA,7682364928,Paramount Skydance Corporation
+ALK,7281826816,"Alaska Air Group, Inc."
+MKTX,7005712384,MarketAxess Holdings Inc.
+CMS-PB,6435752960,Consumers Energy Company
+BBWI,6063989248,"Bath & Body Works, Inc."
+VFC,5859254784,V.F. Corporation
+TFX,5775998976,Teleflex Incorporated
+CZR,5478509056,"Caesars Entertainment, Inc."
+ETSY,5357811200,"Etsy, Inc."
+CE,5336130048,Celanese Corporation
+WHR,5278667264,Whirlpool Corporation
+ENPH,5184277504,"Enphase Energy, Inc."
+LUMN,4874165248,"Lumen Technologies, Inc."
+SEE,4815890944,Sealed Air Corporation
+FMC,4719175168,FMC Corporation
+RHI,3767395072,Robert Half Inc.
+AAP,3625487360,"Advance Auto Parts, Inc."
+XRAY,2916455936,DENTSPLY SIRONA Inc.
+OGN,2698447104,Organon & Co.
+NWL,2678049024,Newell Brands Inc.
+DXC,2647395328,DXC Technology Company
+SEDG,2043680512,"SolarEdge Technologies, Inc."
+DPUKY,1154064896,Domino's Pizza Group plc
+UHT,573832768,Universal Health Realty Income Trust
+BALY,453895584,Bally's Corporation
+SBNY,72420152,Signature Bank
+FXBY,9860432,Foxby Corp.
+FRCB,1862190,First Republic Bank
+WBA,0,"Walgreens Boots Alliance, Inc."

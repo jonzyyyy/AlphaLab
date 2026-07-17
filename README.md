@@ -1,70 +1,98 @@
------
+# AlphaLab
 
-# AlphaLab: A Quantitative Equity Backtesting & Factor Analytics Platform
+A small, self-contained quantitative research project: a cross-sectional
+**value + momentum** strategy on the S&P 500, backtested point-in-time and
+benchmarked against SPY. Everything runs locally on a laptop — the default
+run makes two batch price downloads, caches them to disk (~0.5 MB), and
+completes in seconds.
 
-This project offers a comprehensive, modular Python workflow for systematic equity strategy research, primarily focusing on the **S\&P 500 universe**. It integrates key components for developing and evaluating investment strategies.
+## Strategy
 
------
+1. **Universe** — the largest S&P 500 names by market cap (default 100).
+2. **Factors**, evaluated at each rebalance date using only data up to that date:
+   - *Value*: trailing P/E = price as of the rebalance date ÷ trailing-12-month EPS (lower is better). Negative-earnings names are excluded from the value ranking.
+   - *Momentum*: trailing 126-trading-day (~6 month) return (higher is better).
+3. **Selection** — stocks are ranked on each factor, ranks are averaged, and the top 5 composite names are held equal-weight.
+4. **Rebalancing** — quarterly.
+5. **Evaluation** — the last 30% of the sample is an out-of-sample test window; strategy and SPY returns are measured over the same dates and summarized by one shared metrics function (total/annualized return, volatility, Sharpe).
 
-## Overview
+## Quickstart
 
-AlphaLab provides an end-to-end solution for quantitative researchers, analysts, and developers to rapidly prototype and evaluate systematic investment strategies. It covers:
-
-  * **Factor-based Stock Screening**: Utilizes Value (P/E) and Momentum (6-month return) factors for stock selection.
-  * **Automated Portfolio Construction**: Creates equal-weight portfolios with scheduled rebalancing.
-  * **Historical Backtesting**: Simulates strategy performance and compares it against the S\&P 500 benchmark.
-  * **Performance Analytics & Visualization**: Generates cumulative return plots and calculates crucial risk and return statistics.
-
------
-
-## Features
-
-  * **Data Ingestion**: Fetches historical price and fundamental data using `yfinance`.
-  * **Train/Test Split**: Prevents look-ahead bias by separating in-sample (training) and out-of-sample (testing) periods.
-  * **Factor Computation**: Automatically calculates P/E ratio and momentum scores for S\&P 500 stocks.
-  * **Stock Selection**: Performs composite ranking and selects top-N stocks based on combined factor scores.
-  * **Portfolio Rebalancing**: Supports quarterly (or user-defined) rebalancing with forward-filled weights.
-  * **Benchmark Comparison**: Overlays strategy performance against SPY (or ^GSPC) cumulative returns.
-  * **Performance Metrics**: Provides total return, annualized return, volatility, and Sharpe ratio.
-
------
-
-## Prerequisites
-
-To run AlphaLab, you'll need:
-
-  * **Python 3.8+**
-  * **pip** or **conda** package manager
-  * **Internet access** for data download via `yfinance`
-
------
-
-## Installation (currently still in in-progress, although it can be ran in google colab)
-
-## Project Structure
-
-```
-├── README.md
-├── requirements.txt       # Python dependencies
-├── Equity_Backtest_Notebook.ipynb
-├── data/                  # (Optional) cached CSVs or raw data
-└── utils/                 # Utility scripts (helper functions)
-    ├── data_utils.py
-    └── backtest_utils.py
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
 ```
 
------
+Three entry points, all driving the same `alphalab` package:
 
-## Performance Metrics Explained
+```bash
+python -m alphalab                 # headless run: holdings + metrics table
+streamlit run app.py               # interactive dashboard at localhost:8501
+```
 
-  * **Total Return**: Represents the overall growth of $1 invested.
-  * **Annualized Return**: The geometric average return per year.
-  * **Annualized Volatility**: The standard deviation of daily returns scaled to a yearly basis.
-  * **Sharpe Ratio**: A measure of risk-adjusted return, calculated as the annualized return divided by the annualized volatility.
+For the step-by-step walkthrough, open `notebooks/research.ipynb` in VS Code
+(or any Jupyter frontend) and select the `.venv` kernel.
 
------
+Useful flags: `python -m alphalab --universe-size 50 --years 3 --top-n 10`.
 
-## Acknowledgements
+## Project layout
 
-  * Data provided by **yfinance**.
-  * Backtesting concepts inspired by open-source libraries such as **vectorbt** and **Backtrader**.
+```
+src/alphalab/
+├── config.py      # Settings dataclass + data paths
+├── data.py        # universe, EPS, and price loading with on-disk caches
+├── factors.py     # Factor interface, Momentum, Value
+├── selection.py   # rank-based composite selection
+├── metrics.py     # the single shared performance-metrics function
+├── backtest.py    # quarterly point-in-time backtest
+├── pipeline.py    # end-to-end orchestration (CLI/notebook/app all use this)
+└── plotting.py    # matplotlib chart
+app.py             # Streamlit UI (UI only — no strategy logic)
+notebooks/research.ipynb
+data/              # committed snapshots + gitignored price cache
+archive/           # original Colab notebooks kept for reference
+```
+
+## Data and caching
+
+- `data/sp500_market_caps.csv` and `data/fundamentals.csv` are committed
+  snapshots, so a fresh clone never fires per-ticker requests. Rebuilding
+  them (`python -m alphalab --refresh`) makes one yfinance `.info` request
+  per ticker (~500 for the full universe) and takes several minutes — it is
+  deliberately opt-in.
+- Prices are fetched in a single batch `yf.download` and cached as parquet
+  in `data/cache/`, keyed by ticker set and date range. Reruns are fully
+  offline. Delete `data/cache/` at any time to reclaim space or force fresh
+  data; a default run recreates ~0.5 MB.
+- To shrink the footprint further, lower `universe_size` or `data_years` in
+  `Settings` (or the CLI flags / app sidebar).
+
+## Methodology notes and known limitations
+
+Stated up front because they matter for interpreting the results:
+
+- **Survivorship bias.** The universe is *today's* S&P 500 membership applied
+  historically. Companies that left the index are absent, which flatters
+  returns.
+- **Frozen EPS in the value factor.** P/E at each rebalance uses the price as
+  of that date (point-in-time) but a *current* trailing-12-month EPS snapshot.
+  Truly point-in-time EPS was evaluated and rejected: yfinance only exposes
+  ~4–5 quarters of income statements, which cannot reconstruct TTM EPS at the
+  earlier rebalance dates, and interpolating it would be false precision. The
+  residual bias is that EPS is "known" at most a few quarters early. (The
+  original Colab version used *today's price and EPS* at every historical
+  date, which invalidated the backtest entirely; that is fixed.)
+- **No transaction costs or slippage.** Quarterly turnover on a 5-stock book
+  is modest, but costs are not modeled.
+- **Single train/test split.** One out-of-sample window; results are
+  period-sensitive. The train window is used only as factor lookback history —
+  no parameters are fitted to it.
+
+## Roadmap
+
+- Max drawdown and turnover in the metrics table
+- Simple transaction-cost model
+- Walk-forward evaluation instead of a single split
+- Point-in-time universe membership
+- Unit tests for metrics and selection

@@ -1,0 +1,18 @@
+# environments / build
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# local caches (regenerated on demand)
+data/cache/
+
+# editor / OS
+.vscode/
+.DS_Store
+
+# personal files and pre-refactor artifacts, kept local only
+temasek.ipynb
+Interview data.xlsx
+cleaned_data/
+archive/

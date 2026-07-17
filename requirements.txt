@@ -1,0 +1,9 @@
+yfinance>=0.2.65
+pandas>=2.3
+numpy>=2.2
+matplotlib>=3.10
+plotly>=6.3
+pytickersymbols>=1.15
+pyarrow>=17
+streamlit>=1.40
+ipykernel>=6.30

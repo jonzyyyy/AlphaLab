@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphalab"
+version = "0.1.0"
+description = "Factor-based equity strategy research: value + momentum ranking with a point-in-time backtest"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.65",
+    "pandas>=2.3",
+    "numpy>=2.2",
+    "matplotlib>=3.10",
+    "pytickersymbols>=1.15",
+    "pyarrow>=17",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
